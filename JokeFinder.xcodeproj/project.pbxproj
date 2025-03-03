@@ -12,6 +12,7 @@
 		1FB605AF2D7639B300BABD78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB605A72D7639B300BABD78 /* Preview Assets.xcassets */; };
 		1FB605B02D7639B300BABD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB605A92D7639B300BABD78 /* Assets.xcassets */; };
 		1FB605B52D763ADE00BABD78 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB605B42D763ADE00BABD78 /* Joke.swift */; };
+		1FB605B72D763B0000BABD78 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB605B62D763B0000BABD78 /* JokeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1FB605AA2D7639B300BABD78 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		1FB605AB2D7639B300BABD78 /* JokeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFinderApp.swift; sourceTree = "<group>"; };
 		1FB605B42D763ADE00BABD78 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		1FB605B62D763B0000BABD78 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		1FB605B32D7639FE00BABD78 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1FB605B62D763B0000BABD78 /* JokeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				1FB605AD2D7639B300BABD78 /* JokeView.swift in Sources */,
 				1FB605AE2D7639B300BABD78 /* JokeFinderApp.swift in Sources */,
 				1FB605B52D763ADE00BABD78 /* Joke.swift in Sources */,
+				1FB605B72D763B0000BABD78 /* JokeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
