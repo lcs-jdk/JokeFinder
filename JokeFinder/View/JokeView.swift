@@ -115,6 +115,7 @@ struct JokeView: View {
             }
             
         }
+        .navigationTitle("New Jokes")
     }
 }
  
