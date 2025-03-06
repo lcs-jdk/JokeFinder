@@ -59,7 +59,6 @@
 		1FB605A82D7639B300BABD78 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1FB605A92D7639B300BABD78 /* Assets.xcassets */,
 				1FB605A72D7639B300BABD78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -72,6 +71,7 @@
 				1FB605B22D7639F500BABD78 /* Model */,
 				1FB605B32D7639FE00BABD78 /* ViewModel */,
 				1FB605B12D7639F000BABD78 /* View */,
+				1FB605A92D7639B300BABD78 /* Assets.xcassets */,
 				1FB605A82D7639B300BABD78 /* Preview Content */,
 			);
 			path = JokeFinder;
