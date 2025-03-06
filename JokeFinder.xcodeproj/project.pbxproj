@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6D3CEE2D79FCB70037DC64 /* SharedFunctionsAndConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D3CED2D79FCB70037DC64 /* SharedFunctionsAndConstants.swift */; };
 		1FB605AD2D7639B300BABD78 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB605AA2D7639B300BABD78 /* JokeView.swift */; };
 		1FB605AE2D7639B300BABD78 /* JokeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB605AB2D7639B300BABD78 /* JokeFinderApp.swift */; };
 		1FB605AF2D7639B300BABD78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB605A72D7639B300BABD78 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F6D3CED2D79FCB70037DC64 /* SharedFunctionsAndConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctionsAndConstants.swift; sourceTree = "<group>"; };
 		1FB605962D7639A400BABD78 /* JokeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB605A72D7639B300BABD78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FB605A92D7639B300BABD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F6D3CEC2D79FC9A0037DC64 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1F6D3CED2D79FCB70037DC64 /* SharedFunctionsAndConstants.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		1FB6058D2D7639A400BABD78 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1FB605AB2D7639B300BABD78 /* JokeFinderApp.swift */,
+				1F6D3CEC2D79FC9A0037DC64 /* Shared */,
 				1FB605B22D7639F500BABD78 /* Model */,
 				1FB605B32D7639FE00BABD78 /* ViewModel */,
 				1FB605B12D7639F000BABD78 /* View */,
@@ -179,6 +190,7 @@
 				1FD659212D79F06F002D7406 /* LandingView.swift in Sources */,
 				1FB605AD2D7639B300BABD78 /* JokeView.swift in Sources */,
 				1FB605AE2D7639B300BABD78 /* JokeFinderApp.swift in Sources */,
+				1F6D3CEE2D79FCB70037DC64 /* SharedFunctionsAndConstants.swift in Sources */,
 				1FB605B52D763ADE00BABD78 /* Joke.swift in Sources */,
 				1FB605B72D763B0000BABD78 /* JokeViewModel.swift in Sources */,
 				1FD6591F2D79F028002D7406 /* FavoriteJokeView.swift in Sources */,
